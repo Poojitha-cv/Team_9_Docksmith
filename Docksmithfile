@@ -1,6 +1,6 @@
-FROM scratch
+FROM alpine:3.18
 WORKDIR /app
 COPY *.py /app
-ENV NAME=Nithya
+ENV NAME=Team_9_Docksmith
 RUN echo "Hello Docksmith" > output.txt
-CMD ["echo","Container Started"]
+CMD ["/bin/sh", "-c", "echo Hello from container, NAME=$NAME"]
