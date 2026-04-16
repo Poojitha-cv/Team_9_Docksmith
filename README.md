@@ -12,7 +12,7 @@ Process isolation using unshare and chroot
 Fully offline (no network required)
 
 **PROJECT STRUCTURE**
-
+```
 docksmith/
 ├── docksmith.py
 ├── build_engine.py
@@ -24,6 +24,7 @@ docksmith/
 ├── import_base_image.py
 ├── Docksmithfile
 ├── run_demo.sh
+```
 
 SETUP
 
