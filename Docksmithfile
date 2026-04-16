@@ -1,0 +1,6 @@
+FROM scratch
+WORKDIR /app
+COPY *.py /app
+ENV NAME=Nithya
+RUN echo "Hello Docksmith" > output.txt
+CMD ["echo","Container Started"]
